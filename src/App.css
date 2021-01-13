@@ -12,7 +12,7 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    animation: App-logo-spin infinite 20s linear; 
   }
 }
 
@@ -23,6 +23,16 @@
   color: #270722;
 }
 
+#preview{
+    background: #9AC2C5;
+    width: 600px;
+    min-height: 600px;
+    overflow-y: scroll;
+    height: 100px;
+    border: dashed 1px;
+  
+}
+
 #editor{
   background: #9AC2C5;
   width: 600px;
@@ -30,7 +40,6 @@
   overflow-y: scroll;
   height: 100px;
   border: dashed 1px;
-
 }
 
 textarea::-webkit-scrollbar {
